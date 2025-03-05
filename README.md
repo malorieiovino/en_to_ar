@@ -19,5 +19,5 @@ This repository contains links to the OPUS corpora used for training a multiling
 ## 📜 How to Use
 1. Clone this repo:
    ```bash
-   git clone https://github.com/your-github/dataset-repo.git
+   git clone https://github.com/malorieiovino/subtitles.git
 
