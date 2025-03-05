@@ -21,3 +21,18 @@ This repository contains links to the OPUS corpora used for training a multiling
    ```bash
    git clone https://github.com/malorieiovino/subtitles.git
 
+## 📥 Download & Extract Data in Jupyter
+To programmatically download a dataset in Python:
+```python
+import urllib.request
+import zipfile
+
+url = "https://your-download-link-here"
+output_file = "dataset.zip"
+
+# Download the file
+urllib.request.urlretrieve(url, output_file)
+
+# Extract
+with zipfile.ZipFile(output_file, "r") as zip_ref:
+    zip_ref.extractall("data/")
